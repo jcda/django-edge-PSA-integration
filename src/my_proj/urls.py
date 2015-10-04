@@ -11,7 +11,7 @@ urlpatterns = [
     url(r'^about/$', views.AboutPage.as_view(), name='about'),
     url(r'^users/', include(profiles.urls, namespace='profiles')),
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^', include(accounts.urls, namespace='accounts')),
+    url(r'^', include(accounts.urls, namespace='accounts')),
     url(r'', include('social.apps.django_app.urls', namespace='social')),
     #url(r'^login/$', 'example.app.views.home'),
     url(r'^logout/$', 'django.contrib.auth.views.logout', name='logout'),

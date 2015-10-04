@@ -1,5 +1,7 @@
 these are trial and errors based on a existing project template.
-_Doesnt_Work_yet_ 
+_Doesnt_Work_yet_
+lost of things got broken during the replacement of authtools by python-social-auth, I am still under the process of fixing them.
+
 
 #TODO
 
